@@ -21,7 +21,7 @@ public class CustomerController {
   public String getMethodName() {
     List<Customer> customers = new ArrayList<>();
     customers.add(new Customer(1, "John", "READY"));
-    customers.add(new Customer(1, "Ana", "READY"));
+    customers.add(new Customer(2, "Ana", "READY"));
 
     this.customerService.process(customers);
       return "ok";
